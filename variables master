@@ -1,0 +1,50 @@
+//coderunner extension
+//terminology, you won't understand it
+//solving problems
+
+let bg = 30;
+//the 'let' is an initialization
+//run this..omg nothing happened? because we are not doing anything with it
+//let's use THE CONSOLE
+//its your first method!
+
+console.log(bg);
+//yay it does something
+
+let year = 2021;
+//we could log it seperately or we could log both variables!!
+console.log(bg, year);
+//talk about saving (if you don't save the second one won't log)
+bg = 31;
+console.log(bg);
+
+//what if we want a variable that doesn't change
+
+const basal = 1
+console.log(basal);
+//let's try to reassign const
+//basal = 2;
+//explain error message - type error, operation cant be performed because value is not expected type
+//explain commenting out code
+//TODO
+//FIXME
+/* this is
+a multi-line comment*/
+
+//let's talk about let and const vs VAR
+//var is the OG 
+
+var cbg = 120;
+console.log(cbg);
+//different scope (global) typically you want to start with less scope and then increase
+// will not explain at this time but when we get to functions
+//variable reuirements
+//can't use space
+//use camelcase 
+//can't start with a number
+//can't use reserved keywords (const,let)
+//make names meaningful
+
+//let's look at ghost inspector. first dsa login then cgm
+//3 different ways to do a variable with arithmetic!!
+//dsa login how we assign variables so simply
